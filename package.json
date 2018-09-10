@@ -55,5 +55,5 @@
     "serialize-error": "^2.1.0",
     "twit": "^2.2.11"
   },
-  "repository": "git@github.com:invisible-tech/goodlunchbot.git"
+  "repository": "git@github.com:keenahn/goodlunchbot.git"
 }
