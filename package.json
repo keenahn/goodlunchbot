@@ -1,7 +1,7 @@
 {
   "name": "goodlunchbot",
   "license": "UNLICENSED",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "engines": {
     "node": "^8.9.0"
@@ -15,7 +15,7 @@
   "main": "src/index.js",
   "keywords": [],
   "devDependencies": {
-    "@invisible/changelog-update": "^1.0.8",
+    "@invisible/changelog-update": "^1.1.0",
     "@invisible/eslint-config": "^1.1.7",
     "eslint": "^4.9.0",
     "intelli-espower-loader": "^1.0.1",
@@ -44,10 +44,16 @@
     "@invisible/deploy": "^1.0.12",
     "@invisible/logger": "^0.0.7",
     "app-module-path": "^2.2.0",
+    "chance": "^1.0.16",
+    "cheerio": "^1.0.0-rc.2",
     "common-tags": "^1.4.0",
+    "country-data": "^0.0.31",
     "dotenv": "^4.0.0",
+    "got": "^9.2.1",
     "lodash": "^4.17.4",
-    "serialize-error": "^2.1.0"
+    "p-memoize": "^2.1.0",
+    "serialize-error": "^2.1.0",
+    "twit": "^2.2.11"
   },
-  "repository": "git@github.com:invisible-tech/goodlunchbot.git"
+  "repository": "git@github.com:keenahn/goodlunchbot.git"
 }

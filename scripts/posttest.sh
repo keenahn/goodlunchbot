@@ -1,9 +1,12 @@
 #!/bin/sh
 
-assert-release-note
+assert-version-bump
 status=$?
 
-nsp check
+assert-changelog-update --quiet
+status=$(( $status + $? ))
+
+nsp check --threshold 5
 status=$(( $status + $? ))
 
 if [ $status -eq 0 ]
